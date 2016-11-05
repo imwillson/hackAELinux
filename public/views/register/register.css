@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    background-image: url("../../img/trafficlights.jpeg");
+     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+div.register-info {
+    position: relative;
+    top: 250px;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+}
+
+div.register-form {
+    position: relative;
+    left: 15%;
+    color: white;
+}
+
+div.register-form input {
+    width: 330px;
+}

@@ -62,3 +62,7 @@ button.register {
     height: 40px;
     width: 330px;
 }
+
+a button.register {
+    color: white;
+}
