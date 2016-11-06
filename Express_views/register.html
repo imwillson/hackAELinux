@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CollegeRide: Ride Sharing For Students!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+        <script href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"></link>      
+        <script src="../js/register.js"></script>
+        <link href="../css/register.css" rel="stylesheet"></link>
+    </head>
+    <body>
+        <div class="background">
+            <div class="overlay">
+                <div class="register-info">
+                    <div class="register-form">
+                        <form method="post">
+                            First Name:<br>
+                            <input placeholder="" name="firstname"/><br>
+                            Last Name:<br>
+                            <input placeholder="" name="lastname"/><br>
+                            Email:<br>
+                            <input class="login-page email" type="text" placeholder="username@school.edu" name="email"><br>
+                            Password:<br>
+                            <input class="login-page password" type="password" placeholder="" name="password"><br>
+                            College/University<br>
+                            <select id="selectSchool" placeholder="Select a School" name="school">
+                                <option value="" disabled selected hidden>Select a School</option>
+                                <option>Stony Brook University</option>
+                                <option>Binghamton University</option>
+                            </select><br><br>
+                            <input type="submit" class="btn register">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

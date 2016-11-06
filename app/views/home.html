@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CollegeRide: Ride Sharing For Students!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"></link>
+        <script href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+        <link href="../public/css/home.css" rel="stylesheet"></link>
+    </head>
+    <body ng-app="collegeride" ng-controller="userCtrl">
+        <cr-header></cr-header>
+        <user-block></user-block>
+        <script src="../app.js"></script>
+        <script src="../directives/crHeader.js"></script>
+        <script src="../directives/userBlock.js"></script>
+        <script src="../directives/networkSchool.js"></script>
+        <script src="../services/userService.js"></script>
+        <script src="../controllers/userCtrl.js"></script>
+    </body>
+</html>

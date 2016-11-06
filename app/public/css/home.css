@@ -1,0 +1,117 @@
+.cr-header {
+    height: 60px;
+    width: 100%;
+    background-color: orangered;
+    position: relative;
+}
+
+.cr-header .logo {
+    background-image: url('../img/logo.jpg');
+    height: 100%;
+    width: 65px;
+    float: left;
+}
+
+.cr-header input {
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    top: 15px;
+    width: 500px;
+}
+
+.cr-header ul {
+    float: right;
+    height: 60px;
+    list-style: none;
+    margin: 0;
+}
+
+.cr-header ul li {
+    color: white;
+    float: left;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    width: 60px;
+}
+
+.cr-header ul li:hover {
+    background-color: orange;
+    color: white;
+    float: left;
+    height: 100%;
+    line-height: 60px;
+}
+
+.user-block {
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.user-block div.profile-picture {
+    border: 1px solid lightblue;
+    float: left;
+    padding: 5px;
+}
+
+.user-block div.profile-picture img {
+    height: 200px;
+    width: 200px;
+}
+
+.user-block span.title {
+    font-size: 36px;
+    position: relative;
+    top: -83px; 
+}
+
+.user-block .user-info {
+    float: left;
+    height: 200px;
+}
+
+.user-block .user-info p.user-name {
+    font-size: 36px;
+}
+
+.user-block .user-info p.user-school {
+    font-size: 24px;
+}
+
+.user-block .user-bottom {
+    clear: both;
+}
+
+.user-block .user-bottom .rating {
+    float: left;
+}
+
+.user-block .user-bottom .rating h1, h2{
+    display: inline;
+}
+
+.user-block .user-bottom .networks {
+    float: right;
+}
+
+.network-school {
+    border: 1px solid black;
+    border-radius: 1px;
+    float: left;
+    margin: 0 5px;
+}
+
+.recent-places {
+    float: right;
+}
+
+.recent-places .place {
+    border: 1px solid black;
+    border-radius: 1px;
+    float: left;
+    margin: 0 5px;
+}
